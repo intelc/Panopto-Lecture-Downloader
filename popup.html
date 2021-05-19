@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .image_container {
+      display: block;
+      max-width: 180px;
+      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body class="bg-dark text-white">
+    <div class='header mt-3 mx-3 mb-3 bg-dark text-white ' style ='min-width: 40px; white-space: nowrap;'>
+        <img src='icon48.png' alt = ''></img>
+        <strong> Panopto Downloader </strong>
+    </div>
+    <div id='dbox' class=" flex-column p-3 mb-3 bg-dark text-white" style="display: flex;">
+        <div id ='place'></div>
+        <div id = "1st" class="flex-column" style='display:flex'>
+            <button id="download" type="button" class="btn btn-primary mb-3">Download</button>
+        </div>
+        <div id = "2nd" class="flex-column" style='display:flex'>
+            <p style="text-align: center;">2nd window detected</p>
+            <button id="download2" type="button" class="btn btn-success mb-3">Download Both</button>
+        </div>
+        <span id = 'faq' style="color:orange; text-align: center; cursor: pointer;">FAQ</a>
+        <script type="text/javascript" src="popup.js"></script>
+    </div>
+</body>
+</html>
